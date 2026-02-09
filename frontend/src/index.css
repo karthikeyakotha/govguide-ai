@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  background-color: white;
+  color: rgb(17 24 39);
+}
+
+.text-primary {
+  color: rgb(37 99 235);
+}
+
+.bg-primary {
+  background-color: rgb(37 99 235);
+}
+
+.bg-primary-hover:hover {
+  background-color: rgb(29 78 216);
+}
+
+.border-light {
+  border-color: rgb(229 231 235);
+}

@@ -1,0 +1,27 @@
+# Project Dependencies (Node.js/npm)
+# This file lists the libraries used in the Frontend and Backend
+
+# --- Frontend Dependencies ---
+@supabase/supabase-js
+clsx
+framer-motion
+lucide-react
+openai
+react
+react-dom
+react-markdown
+react-router-dom
+tailwind-merge
+tesseract.js
+
+# --- Backend Dependencies ---
+@langchain/textsplitters
+@supabase/supabase-js
+@types/pdf-parse
+csv-parse
+dotenv
+langchain
+openai
+pdf-parse
+pdfjs-dist
+tesseract.js

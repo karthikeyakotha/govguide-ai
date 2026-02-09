@@ -1,0 +1,29 @@
+{
+    "name": "codestrom-backend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "ingest": "tsx scripts/batch-ingest.ts",
+        "ingest:csv": "tsx scripts/ingest-csv.ts",
+        "manage-db": "tsx scripts/manage-db.ts",
+        "test-import": "tsx scripts/test-import.ts"
+    },
+    "dependencies": {
+        "@langchain/textsplitters": "^1.0.1",
+        "@supabase/supabase-js": "^2.93.3",
+        "@types/pdf-parse": "^1.1.5",
+        "csv-parse": "^6.1.0",
+        "dotenv": "^17.2.3",
+        "langchain": "^1.2.16",
+        "openai": "^6.17.0",
+        "pdf-parse": "^2.4.5",
+        "pdfjs-dist": "^5.4.530",
+        "tesseract.js": "^7.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.10.1",
+        "tsx": "^4.21.0",
+        "typescript": "~5.9.3"
+    }
+}
