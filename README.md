@@ -167,4 +167,4 @@ VITE_GITHUB_TOKEN=your_github_token_for_openai_api
 
 ---
 
-### *Made for the <CodeStorm/> Hackathon*
+### *Made for the <CodeStorm/> Hackathon*  
