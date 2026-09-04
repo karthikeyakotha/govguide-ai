@@ -1,4 +1,4 @@
-# GovGuide (BragBoard) 🇮🇳
+# GovGuide 🇮🇳
 ### *Bridging the Gap Between Citizens and Government Schemes*
 
 ---
